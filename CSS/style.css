@@ -184,8 +184,9 @@ align-items: center;
         line-height: .5rem;
         margin-top: 20px;
     }
-
-
+    .navbar-brand img {
+        display: none !important;
+    }
 
 
 
