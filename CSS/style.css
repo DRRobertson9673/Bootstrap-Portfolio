@@ -16,6 +16,7 @@
     position: fixed;
     width: 100%;
     z-index: 100;
+    padding: 10px 25px 10px 25px;
 }
 nav .name {
     font-weight:lighter;
@@ -113,32 +114,42 @@ nav .portfolio {
 }
 #skillsSection {
     width:100%;
-    height: 500px;
+    height: 100vh;
     background-color: var(--myBlack);
 }
 #workGrid {
     cursor: pointer;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding-bottom: 30px;
 }
 #skillsRow {
-    width: 90%;
+    padding: 0 10% 0 10%;
     margin: 0 auto;
+    background-color: var(--myBlack);
 }
 
 #skillsRow .card-body {
+    display:flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
     color: white;
     background-color: var(--myBlack);
 }
 
 #skillsRow .card {
 border: 0;
+align-items: center;
 }
 #skillsRow .card-title {
     padding-top: 10px;
 }
 #skillsRow .card-text {
     font-weight: lighter;
+    width:80%;
+    
+}
+#skillsRow .card-img {
+    height: 6em;
 }
