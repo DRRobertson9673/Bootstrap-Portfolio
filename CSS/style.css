@@ -81,12 +81,10 @@ nav .portfolio {
     width: 30%;
     margin: 40px auto;
     border-radius: 0rem;
-    box-shadow: 0px 0px 35px rgba(0, 0, 10, 0.75);
 }
 .row .btn {
     margin: 0 auto;
     border-radius: 0rem;
-    box-shadow: 0px 0px 35px rgba(0, 0, 1, 0.3);
 }
 .btn-primary {
     font-weight: lighter;
@@ -98,6 +96,7 @@ nav .portfolio {
     background-color:var(--myGreen);
     border-color:var(--myGreen);
     color:var(--myBlack);
+    box-shadow: 0px 0px 35px rgba(0, 0, 10, 0.75);
 }
 .blackTitle {
     margin-top:100px;
@@ -224,14 +223,6 @@ nav .portfolio {
     color:var(--myBlack);
     background-color:var(--myGreen);
 }
-
-
-
-
-
-
-
-
 @media screen and (max-width: 636px) { /* these are the settings for when the viewport is a much smaller size */
     #hero {
         background-attachment: scroll;
