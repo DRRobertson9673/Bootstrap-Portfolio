@@ -1,4 +1,5 @@
-:root { /* below here defines global setting across the page like font and link styles */
+/* global setting across the page like font and link styles */
+:root {
     --myGreen: rgb(0, 255, 171);
     --myBlack: #282828;
   }
@@ -16,12 +17,12 @@ a:hover {
 .example::-webkit-scrollbar {
     display: none;
 }
-  
 /* Hide scrollbar for IE, Edge and Firefox */
 .example {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
+/* settings for navbar */
 .nav-link {
     font-weight: lighter;
 }
@@ -50,6 +51,7 @@ nav .portfolio {
     border:0px;
     padding:0px;
 }
+/* settings for hero section */
 #hero {
     background-attachment: fixed;
     background-image: url(../Images/Profile_hero_dark.jpg);
@@ -77,6 +79,7 @@ nav .portfolio {
     line-height: 2.5rem;
     margin-top: 20px;
 }
+/* settings for buttons */
 .jumbotron .btn {
     width: 30%;
     margin: 40px auto;
@@ -98,6 +101,7 @@ nav .portfolio {
     color:var(--myBlack);
     box-shadow: 0px 0px 35px rgba(0, 0, 10, 0.75);
 }
+/* settings for section titles */
 .blackTitle {
     margin-top:100px;
     margin-bottom:25px;
@@ -113,6 +117,12 @@ nav .portfolio {
     font-weight: bold;
     color:white;
     font-size: 3rem;
+}
+/* settings for work cards section */
+#workGrid {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 .card {
     margin-bottom: 1rem;
@@ -140,15 +150,11 @@ nav .portfolio {
     justify-content: center;
     flex-direction: column;
 }
+/* settings for skills section cards */
 #skillsSection {
     width:100%;
     height: 300px;
     background-color: var(--myBlack);
-}
-#workGrid {
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 30px;
 }
 #skillsRow {
     padding: 0 8% 8% 8%;
@@ -179,6 +185,7 @@ nav .portfolio {
 #skillsRow .card-img {
     height: 6em;
 }
+/* settings for about and contact section */
 #aboutSection {
     width:100%;
     height: 300px;
@@ -188,9 +195,6 @@ nav .portfolio {
     font-weight: lighter;
     padding: 0 10% 0% 10%;
 }
-
-
-
 .smallTitle {
     margin-top: 20px;
     margin-bottom:15px;
@@ -209,10 +213,8 @@ nav .portfolio {
     width: 2em;
     margin-right: 10px;
 }
-
-
-
-#footer { /* these are the settings for the footer */
+/* settings for footer */
+#footer {
     margin-top: 100px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -223,9 +225,10 @@ nav .portfolio {
     color:var(--myBlack);
     background-color:var(--myGreen);
 }
-@media screen and (max-width: 636px) { /* these are the settings for when the viewport is a much smaller size */
+/* these are the settings to change the hero section text to make it look better when the viewport is a much smaller size */
+@media screen and (max-width: 636px) {
     #hero {
-        background-attachment: scroll;
+        background-attachment: scroll; /* removes the property 'fixed' from the background attachment */
     }
     .jumbotron .display-4 {
         font-size: 5rem;
@@ -243,5 +246,4 @@ nav .portfolio {
         margin: 0px 8px 0px 0px;
         font-size: 1.1rem;
     }
-
 }

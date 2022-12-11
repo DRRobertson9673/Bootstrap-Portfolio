@@ -15,7 +15,9 @@ The website can be accessed via an internet browser and you can navigate to diff
 
 Link: https://drrobertson9673.github.io/Bootstrap-Portfolio/
 
-![screenshot of the website](xxxx)
+![screenshot of the website on large viewport](Images/Screenshot_Large.png)
+![screenshot of the website on medium viewport](Images/Screenshot_Medium.png)
+![screenshot of the website on small viewport](Images/Screenshot_Small.png)
 
 ## Credits
 
