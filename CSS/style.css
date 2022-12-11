@@ -203,10 +203,23 @@ nav .portfolio {
     color:var(--myBlack);
     font-size: 1.8rem;
 }
+#contactList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contactItem {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
 .contactItem {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+}
+.contactTitle {
+    margin-bottom: 0px;
 }
 .contactItem img{
     height: 2em;
