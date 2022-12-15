@@ -143,7 +143,7 @@ nav .portfolio {
 .card-img-overlay .card-text{
     font-weight:lighter;
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: 1.3rem;
 }
 .card:hover .card-img-overlay{
     display: flex;
