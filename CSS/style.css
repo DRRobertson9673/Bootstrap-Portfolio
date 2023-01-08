@@ -124,8 +124,12 @@ nav .portfolio {
     margin: 0 auto;
     padding-bottom: 30px;
 }
+.col {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
 .card {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     border-radius: 0;
 }
 .card img{
